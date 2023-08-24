@@ -19,12 +19,6 @@ const UseMemoHook =() =>{
         console.log('checkData');
         return countNumber(myNum);
     }, [myNum]);
-
-
-    
-
-    
-
     return(
         <>
         {console.log('render')}

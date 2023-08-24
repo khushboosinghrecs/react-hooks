@@ -16,6 +16,11 @@ import { GitSearch } from './components/commonProblems/GitSearch';
 import MainVedio from './components/commonProblems/vedio/Mainvedio';
 import { Bmicalculator } from './components/commonProblems/Bmicalculator';
 import ToDo from './components/useCallback/ToDo';
+import CheckUseEffect from './CheckUseEffect';
+import ControlledComponent from './components/ControlledandUncontrolled/ControlledComponent';
+import UncontrolledComponent from './components/ControlledandUncontrolled/UncontrolledComponent';
+import LoginForm from './components/ControlledandUncontrolled/ExControlled';
+import Modal from './components/ControlledandUncontrolled/ExUnControlles';
 
 function App() {
   return (
@@ -26,7 +31,7 @@ function App() {
       {/* <CleauUp /> */}
       {/* <UseReducer /> */}
       
-      <UseRefHook/>
+      {/* <UseRefHook/> */}
       {/* <RefHook /> */}
       {/* <  UseMemoHook /> */}
       {/* <Callbackhook /> */}
@@ -34,14 +39,18 @@ function App() {
 
       {/* common problem react problem */}
 
-      <AddToCart />
+      {/* <AddToCart /> */}
       {/* <GitSearch /> */}
       {/* <MainVedio /> */}
-      <Bmicalculator />
-
+      {/* <Bmicalculator /> */}
+      {/* <CheckUseEffect/> */}
 
       {/* react Projects */}
       {/* <ToDo /> */}
+      <ControlledComponent/>
+      <UncontrolledComponent />
+      <LoginForm />
+      <Modal />
 
     </div>
   );

@@ -1,24 +1,32 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
-const UseEffect =()=>{
-    const [count, setCount] =useState(0);
-    const CountUpdate =(val) =>{
-        if(val =='inc') return setCount(count+1);
-        if(val =='dec') return setCount(count -1);
-    }
-    console.log('render');
-    useEffect(()=>{
-        console.log('re-render');
+const UseEffect = () => {
+  const [count, setCount] = useState(0);
+  const [count2, setCount2] = useState(0);
+  const settime = setInterval(() => {
+    setCount((prev) => prev + 1);
+  }, 1000);
+  setTimeout(() => {
+    clearInterval(settime);
+  }, 5000);
 
- } ,[count])
-    return(
-        <>
-        <button onClick={()=>CountUpdate('inc')}>+</button>
-        {        console.log('return-render')}
-
-        <h1>{count}</h1>
-        <button onClick={()=>CountUpdate('dec')}>-</button>
-        </>
-    )
-}
+  useEffect(() => {
+    const settime = setInterval(() => {
+      setCount2((prev) => prev + 1);
+    }, 1000);
+    setTimeout(() => {
+      clearInterval(settime);
+    }, 5000);
+    return () => {
+      clearInterval(settime); 
+    };
+  }, []);
+  
+  return (
+    <>
+        <h2>count=  {count}</h2>
+      <h1>count2 = {count2}</h1>
+    </>
+  );
+};
 export default UseEffect;
