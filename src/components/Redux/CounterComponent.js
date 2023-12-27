@@ -1,4 +1,5 @@
 import React from 'react'
+import {connect} from 'react-redux'
 import { decreament, increament } from './Action'
 
 function CounterComponent({count, increament, decreament}) {

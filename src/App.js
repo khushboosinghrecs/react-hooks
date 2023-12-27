@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import React from 'react';
 import './App.css';
+import StarApp from './components/starRating/StarApp';
 import UseState from './components/useState/UseState';
 import UseStatObject from './components/useState/UseStateObject';
 import UseEffect from './components/useEffect/useEffect';
@@ -21,6 +22,10 @@ import ControlledComponent from './components/ControlledandUncontrolled/Controll
 import UncontrolledComponent from './components/ControlledandUncontrolled/UncontrolledComponent';
 import LoginForm from './components/ControlledandUncontrolled/ExControlled';
 import Modal from './components/ControlledandUncontrolled/ExUnControlles';
+import Appp from './components/Redux/Appp';
+import Apps from './components/ReduxEx/Apps';
+import { Book } from './components/Book';
+import CounterComponent from './components/Redux/CounterComponent';
 
 function App() {
   return (
@@ -47,11 +52,15 @@ function App() {
 
       {/* react Projects */}
       {/* <ToDo /> */}
-      <ControlledComponent/>
+      {/* <ControlledComponent/>
       <UncontrolledComponent />
       <LoginForm />
       <Modal />
-
+      <Appp />
+      <Apps /> */}
+      {/* <StarApp /> */}
+      {/* <Book /> */}
+      <CounterComponent />
     </div>
   );
 }

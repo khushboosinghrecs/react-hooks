@@ -1,0 +1,46 @@
+state-> inside component we use;
+props-> passing data from one component to other
+create-react-app-> package to build a new projectl
+
+npx-create-react-app;
+
+webpack- compile code ->and run on local server, bundling css, jsx , file and optimising to run on browser
+
+public folder-> 
+
+node modules is a place where all the dependencies there are that is dependent on our projectl
+
+functional component are just like functional component;
+
+undefined	📝 Functional components are a new and better way to write components in React.
+
+undefined	📝 State and props are used to manage data in React components. State is used to manage dynamic data within a component, while props are used to pass data from a parent component to a child component.
+
+undefined	📝 To create a new project in React, you can use the "create-react-app" package, which sets up a scaffold for your project with all the necessary dependencies and configurations.
+
+undefined	📝 State variables in React are created using the useState hook, which allows you to define a dynamic variable and its setter function.
+
+undefined	📝 Props are used to pass data from a parent component to a child component in React. The child component can access the data through the props object.
+
+undefined	📝 The create-react-app package helps in setting up a React project by providing bundlers, testing setup, and a development server for hosting the application.
+
+undefined	📝 Optimizing images in a React app can be done by compressing the images, using a CDN to serve the images, and minimizing the size of the images.
+
+undefined	- 🤯 Functional component is a new way of creating components in React. It is recommended over class-based components as it requires less code and is more efficient.
+
+undefined	- 🤔 State and props are used to manage data in React components. State is used to manage internal data within a component, while props are used to pass data from a parent component to a child component.
+
+undefined	- 🖥️ Create React App is a package that helps in setting up a new React project. It provides a scaffold for the project and handles tasks like bundling, testing, and serving the application.
+
+undefined	- 📦 Packaging the content in a React application refers to the process of preparing the application for deployment. This includes bundling all the necessary files and assets, optimizing the code, and creating a build that can be hosted on a server.
+
+undefined	- 💡 Hooks in React, like useState, are utility functions provided by React that allow us to use state and other React features in functional components. They help in writing cleaner and more modular code.
+
+undefined	- ⚙️ Props are used to pass data from a parent component to a child component in React. They allow components to share data and communicate with each other.
+
+undefined	- 🎠 Building an image carousel in React involves managing the active image index and using conditional rendering to show the current image. Key optimization techniques include using a unique key for each image and using a CDN to load images faster.
+
+undefined	- 🐛 A bug in the app was causing the previous button to move up and down. This was fixed by adding a fixed height to the image container and using object-fit: contain to maintain the image's aspect ratio.
+
+undefined	- 💡 Optimizations in the app can include compressing images, using a CDN to load images faster, and minifying CSS and JavaScript files. Using keys in React components is also important for performance optimization.
+

@@ -2,7 +2,7 @@ import React from 'react'
 import { Provider } from 'react';
 import store from './Store';
 import CounterComponent from './CounterComponent';
-function App() {
+function Appp() {
   return (
 <Provider store ={store}>
 <div className='App'>
@@ -12,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default Appp

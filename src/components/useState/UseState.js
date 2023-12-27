@@ -2,6 +2,10 @@ import React, { useState } from 'react'
 
 const UseState =()=>{
     const [count, setCount] = useState(0);
+    const increament =()=>{
+        setCount(count+1);
+        setCount(count+1);
+    }
 console.log('outside');
     return(
         <>
